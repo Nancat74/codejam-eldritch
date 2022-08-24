@@ -53,9 +53,9 @@ body {
 }
 
 .ancients-container .ancient-card.active {
-    border-color: 2px rgba(0, 0, 0, 0.342);
-    border-radius: 8px;
-    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.562);
+    border-color: 5px rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    box-shadow: 5px 10px 13px rgba(92, 192, 194, 0.664);
 }
 
 .difficulty-container {
