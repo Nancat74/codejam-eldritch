@@ -1,6 +1,12 @@
-import greenCardsAssets from '../../../assets/MythicCards/green';
+//import greenCardsAssets from '../../../assets/MythicCards/green';
 
-const cardsData = [
+const greenCardsAssets = {};
+
+for(let i = 1; i < 19; i++) {
+  greenCardsAssets[`green${i}`] = `url(../assets/MythicCards/green/green${i}.png)`
+}
+
+const cardsDataGreen = [
   {
     id: 'green1',
     cardFace: greenCardsAssets.green1,
@@ -111,4 +117,4 @@ const cardsData = [
   },
 ]
 
-export default cardsData
+export default cardsDataGreen
